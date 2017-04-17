@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9900ED5F1CCC2DCB00A2972F /* PaleEmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED5E1CCC2DCB00A2972F /* PaleEmojisViewController.swift */; };
+		9900ED611CCC33BB00A2972F /* CreamWhiteEmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED601CCC33BB00A2972F /* CreamWhiteEmojisViewController.swift */; };
+		9900ED631CCC39DA00A2972F /* ModerateBrownEmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED621CCC39DA00A2972F /* ModerateBrownEmojisViewController.swift */; };
+		9900ED651CCC3DD800A2972F /* DarkBrownEmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED641CCC3DD800A2972F /* DarkBrownEmojisViewController.swift */; };
+		9900ED671CCC3E7400A2972F /* BlackEmojisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED661CCC3E7400A2972F /* BlackEmojisViewController.swift */; };
+		9900ED691CCC3FB100A2972F /* AnimalsNatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED681CCC3FB100A2972F /* AnimalsNatureViewController.swift */; };
+		9900ED6B1CCC40B300A2972F /* FoodDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED6A1CCC40B300A2972F /* FoodDrinkViewController.swift */; };
+		9900ED6D1CCC413E00A2972F /* ActivitySportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED6C1CCC413E00A2972F /* ActivitySportsViewController.swift */; };
+		9900ED6F1CCC41A200A2972F /* TravelPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED6E1CCC41A200A2972F /* TravelPlacesViewController.swift */; };
+		9900ED711CCC420600A2972F /* ObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED701CCC420600A2972F /* ObjectsViewController.swift */; };
+		9900ED731CCC425700A2972F /* SymbolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED721CCC425700A2972F /* SymbolsViewController.swift */; };
+		9900ED751CCC42EE00A2972F /* FlagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900ED741CCC42EE00A2972F /* FlagsViewController.swift */; };
+		9977ABFC1CC952AF0032B3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977ABFB1CC952AF0032B3EE /* AppDelegate.swift */; };
+		9977ABFE1CC952AF0032B3EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977ABFD1CC952AF0032B3EE /* ViewController.swift */; };
+		9977AC011CC952AF0032B3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9977ABFF1CC952AF0032B3EE /* Main.storyboard */; };
+		9977AC041CC952AF0032B3EE /* Freemoticon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9977AC021CC952AF0032B3EE /* Freemoticon.xcdatamodeld */; };
+		9977AC061CC952AF0032B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9977AC051CC952AF0032B3EE /* Assets.xcassets */; };
+		9977AC091CC952AF0032B3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9977AC071CC952AF0032B3EE /* LaunchScreen.storyboard */; };
+		9977AC111CC953140032B3EE /* TBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977AC101CC953140032B3EE /* TBVC.swift */; };
+		9977AC191CC991960032B3EE /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9977AC181CC991960032B3EE /* MyCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9900ED5E1CCC2DCB00A2972F /* PaleEmojisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaleEmojisViewController.swift; sourceTree = "<group>"; };
+		9900ED601CCC33BB00A2972F /* CreamWhiteEmojisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreamWhiteEmojisViewController.swift; sourceTree = "<group>"; };
+		9900ED621CCC39DA00A2972F /* ModerateBrownEmojisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModerateBrownEmojisViewController.swift; sourceTree = "<group>"; };
+		9900ED641CCC3DD800A2972F /* DarkBrownEmojisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkBrownEmojisViewController.swift; sourceTree = "<group>"; };
+		9900ED661CCC3E7400A2972F /* BlackEmojisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackEmojisViewController.swift; sourceTree = "<group>"; };
+		9900ED681CCC3FB100A2972F /* AnimalsNatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsNatureViewController.swift; sourceTree = "<group>"; };
+		9900ED6A1CCC40B300A2972F /* FoodDrinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDrinkViewController.swift; sourceTree = "<group>"; };
+		9900ED6C1CCC413E00A2972F /* ActivitySportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitySportsViewController.swift; sourceTree = "<group>"; };
+		9900ED6E1CCC41A200A2972F /* TravelPlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelPlacesViewController.swift; sourceTree = "<group>"; };
+		9900ED701CCC420600A2972F /* ObjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectsViewController.swift; sourceTree = "<group>"; };
+		9900ED721CCC425700A2972F /* SymbolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolsViewController.swift; sourceTree = "<group>"; };
+		9900ED741CCC42EE00A2972F /* FlagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsViewController.swift; sourceTree = "<group>"; };
+		9977ABF81CC952AF0032B3EE /* Freemoticon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freemoticon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9977ABFB1CC952AF0032B3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9977ABFD1CC952AF0032B3EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9977AC001CC952AF0032B3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9977AC031CC952AF0032B3EE /* Freemoticon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Freemoticon.xcdatamodel; sourceTree = "<group>"; };
+		9977AC051CC952AF0032B3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9977AC081CC952AF0032B3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9977AC0A1CC952AF0032B3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9977AC101CC953140032B3EE /* TBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBVC.swift; sourceTree = "<group>"; };
+		9977AC181CC991960032B3EE /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9977ABF51CC952AF0032B3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9977ABEF1CC952AF0032B3EE = {
+			isa = PBXGroup;
+			children = (
+				9977ABFA1CC952AF0032B3EE /* Freemoticon */,
+				9977ABF91CC952AF0032B3EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9977ABF91CC952AF0032B3EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9977ABF81CC952AF0032B3EE /* Freemoticon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9977ABFA1CC952AF0032B3EE /* Freemoticon */ = {
+			isa = PBXGroup;
+			children = (
+				9977ABFB1CC952AF0032B3EE /* AppDelegate.swift */,
+				9977ABFD1CC952AF0032B3EE /* ViewController.swift */,
+				9900ED5E1CCC2DCB00A2972F /* PaleEmojisViewController.swift */,
+				9900ED601CCC33BB00A2972F /* CreamWhiteEmojisViewController.swift */,
+				9900ED621CCC39DA00A2972F /* ModerateBrownEmojisViewController.swift */,
+				9900ED641CCC3DD800A2972F /* DarkBrownEmojisViewController.swift */,
+				9900ED661CCC3E7400A2972F /* BlackEmojisViewController.swift */,
+				9900ED681CCC3FB100A2972F /* AnimalsNatureViewController.swift */,
+				9900ED6A1CCC40B300A2972F /* FoodDrinkViewController.swift */,
+				9900ED6C1CCC413E00A2972F /* ActivitySportsViewController.swift */,
+				9900ED6E1CCC41A200A2972F /* TravelPlacesViewController.swift */,
+				9900ED701CCC420600A2972F /* ObjectsViewController.swift */,
+				9900ED721CCC425700A2972F /* SymbolsViewController.swift */,
+				9900ED741CCC42EE00A2972F /* FlagsViewController.swift */,
+				9977ABFF1CC952AF0032B3EE /* Main.storyboard */,
+				9977AC101CC953140032B3EE /* TBVC.swift */,
+				9977AC051CC952AF0032B3EE /* Assets.xcassets */,
+				9977AC071CC952AF0032B3EE /* LaunchScreen.storyboard */,
+				9977AC0A1CC952AF0032B3EE /* Info.plist */,
+				9977AC021CC952AF0032B3EE /* Freemoticon.xcdatamodeld */,
+				9977AC181CC991960032B3EE /* MyCollectionViewCell.swift */,
+			);
+			path = Freemoticon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9977ABF71CC952AF0032B3EE /* Freemoticon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9977AC0D1CC952AF0032B3EE /* Build configuration list for PBXNativeTarget "Freemoticon" */;
+			buildPhases = (
+				9977ABF41CC952AF0032B3EE /* Sources */,
+				9977ABF51CC952AF0032B3EE /* Frameworks */,
+				9977ABF61CC952AF0032B3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freemoticon;
+			productName = Freemoticon;
+			productReference = 9977ABF81CC952AF0032B3EE /* Freemoticon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9977ABF01CC952AF0032B3EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Digital Rethink";
+				TargetAttributes = {
+					9977ABF71CC952AF0032B3EE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7EZ26HF4E4;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 9977ABF31CC952AF0032B3EE /* Build configuration list for PBXProject "Freemoticon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9977ABEF1CC952AF0032B3EE;
+			productRefGroup = 9977ABF91CC952AF0032B3EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9977ABF71CC952AF0032B3EE /* Freemoticon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9977ABF61CC952AF0032B3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9977AC091CC952AF0032B3EE /* LaunchScreen.storyboard in Resources */,
+				9977AC061CC952AF0032B3EE /* Assets.xcassets in Resources */,
+				9977AC011CC952AF0032B3EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9977ABF41CC952AF0032B3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9977AC111CC953140032B3EE /* TBVC.swift in Sources */,
+				9900ED671CCC3E7400A2972F /* BlackEmojisViewController.swift in Sources */,
+				9900ED6D1CCC413E00A2972F /* ActivitySportsViewController.swift in Sources */,
+				9900ED751CCC42EE00A2972F /* FlagsViewController.swift in Sources */,
+				9900ED631CCC39DA00A2972F /* ModerateBrownEmojisViewController.swift in Sources */,
+				9900ED6F1CCC41A200A2972F /* TravelPlacesViewController.swift in Sources */,
+				9977AC191CC991960032B3EE /* MyCollectionViewCell.swift in Sources */,
+				9977ABFE1CC952AF0032B3EE /* ViewController.swift in Sources */,
+				9977ABFC1CC952AF0032B3EE /* AppDelegate.swift in Sources */,
+				9900ED651CCC3DD800A2972F /* DarkBrownEmojisViewController.swift in Sources */,
+				9977AC041CC952AF0032B3EE /* Freemoticon.xcdatamodeld in Sources */,
+				9900ED711CCC420600A2972F /* ObjectsViewController.swift in Sources */,
+				9900ED691CCC3FB100A2972F /* AnimalsNatureViewController.swift in Sources */,
+				9900ED611CCC33BB00A2972F /* CreamWhiteEmojisViewController.swift in Sources */,
+				9900ED5F1CCC2DCB00A2972F /* PaleEmojisViewController.swift in Sources */,
+				9900ED731CCC425700A2972F /* SymbolsViewController.swift in Sources */,
+				9900ED6B1CCC40B300A2972F /* FoodDrinkViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9977ABFF1CC952AF0032B3EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9977AC001CC952AF0032B3EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9977AC071CC952AF0032B3EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9977AC081CC952AF0032B3EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9977AC0B1CC952AF0032B3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9977AC0C1CC952AF0032B3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9977AC0E1CC952AF0032B3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EZ26HF4E4;
+				INFOPLIST_FILE = Freemoticon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digitalrethink.Freemoticon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9977AC0F1CC952AF0032B3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7EZ26HF4E4;
+				INFOPLIST_FILE = Freemoticon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = digitalrethink.Freemoticon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9977ABF31CC952AF0032B3EE /* Build configuration list for PBXProject "Freemoticon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9977AC0B1CC952AF0032B3EE /* Debug */,
+				9977AC0C1CC952AF0032B3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9977AC0D1CC952AF0032B3EE /* Build configuration list for PBXNativeTarget "Freemoticon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9977AC0E1CC952AF0032B3EE /* Debug */,
+				9977AC0F1CC952AF0032B3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9977AC021CC952AF0032B3EE /* Freemoticon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9977AC031CC952AF0032B3EE /* Freemoticon.xcdatamodel */,
+			);
+			currentVersion = 9977AC031CC952AF0032B3EE /* Freemoticon.xcdatamodel */;
+			path = Freemoticon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9977ABF01CC952AF0032B3EE /* Project object */;
+}
